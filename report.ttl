@@ -1,0 +1,223 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#REPORT1533857700643>
+        a           <http://vocab.linkeddata.es/ontology/report#Report> ;
+        rdfs:label  "Report created on Thu Aug 09 23:35:00 UTC 2018" ;
+        <http://vocab.linkeddata.es/ontology/report#hasEntry>
+                <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437IMPORTSGO_IMPORTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437IMPORTSRO_IMPORTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437IMPORTSUBERON_IMPORTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437CEPHOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437IMPORTSCL_IMPORTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYCEPHOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSRO_IMPORTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSCL_IMPORTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643CATALOG-V001XML> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643CEPH-EDITOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSGO_IMPORTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSUBERON_IMPORTOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYTAXONOMYOWL> ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+                "2" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+                "0" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+                "11" ;
+        <http://vocab.linkeddata.es/ontology/report#reportDate>
+                "Thu Aug 09 23:35:00 UTC 2018"^^xsd:dateTime .
+
+<http://vocab.linkeddata.es/ontology/report#entrySubject>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437CEPHOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/ceph.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437CEPH.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+        a       rdf:Property .
+
+rdfs:label  a   owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#reportDate>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437IMPORTSUBERON_IMPORTOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/imports/uberon_import.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437IMPORTSUBERON_IMPORT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#Error>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSGO_IMPORTOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/src/ontology/imports/go_import.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSGO_IMPORT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437IMPORTSGO_IMPORTOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/imports/go_import.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437IMPORTSGO_IMPORT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#Report>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYCEPHOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/src/ontology/ceph.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYCEPH.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC>
+        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
+        rdfs:label  "Warning: title or description missing from vocabulary" .
+
+<http://vocab.linkeddata.es/ontology/report#GENERICERROR>
+        a           <http://vocab.linkeddata.es/ontology/report#Error> ;
+        rdfs:label  "Error: the vocabulary could not be loaded or processed" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643CATALOG-V001XML>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab catalog-v001.xml" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#CATALOG-V001.XML> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSUBERON_IMPORTOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/src/ontology/imports/uberon_import.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSUBERON_IMPORT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSRO_IMPORTOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/src/ontology/imports/ro_import.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSRO_IMPORT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437IMPORTSRO_IMPORTOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/imports/ro_import.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437IMPORTSRO_IMPORT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643CEPH-EDITOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab ceph-edit.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#CEPH-EDIT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYTAXONOMYOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/src/ontology/taxonomy.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYTAXONOMY.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#Warning>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#Entry>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSCL_IMPORTOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/src/ontology/imports/cl_import.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437SRCONTOLOGYIMPORTSCL_IMPORT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#hasEntry>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1533857700643HOMEAHMADREPOSPREVCLONE-W437IMPORTSCL_IMPORTOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-W437/imports/cl_import.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-W437IMPORTSCL_IMPORT.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1533857700643> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#detectedProblem>
+        a       rdf:Property .
